@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    font-family: "Roboto";
+}
+
+.confirming__container
+{
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    gap: 10px;
+    align-items: center;
+}
+
+.checkbox__container
+{
+    width: 20px;
+    height: 20px;
+    border: 2px black solid;
+    position: relative;
+    cursor: pointer;
+}
+
+.G
+{
+    position: absolute;
+    left: -2px;
+    top: -2px;
+}
+
+.form__container
+{
+    display: grid;
+    /* flex-direction: column;
+    justify-content: centers; */
+    width: 25%;
+    margin: 0 auto;
+    margin-top: 100px;
+    background-color: rgb(172, 172, 236);
+    padding: 50px;
+    border-radius: 5px;
+    gap: 20px;
+}
+
+.label__container
+{
+    width: 100%;
+}
+
+.label__text
+{
+    font-size: 2em;
+}
+
+#name__field
+{
+    width: 100%;
+    font-size: 2em;
+}
+
+#name__field::placeholder
+{
+    padding: 5px;
+}
+
+#password__field
+{
+    width: 100%;
+    font-size: 2em;
+}
+
+#password__field::placeholder
+{
+    padding: 5px;
+}
+
+#email__field
+{
+    width: 100%;
+    font-size: 2em;
+}
+
+#email__field::placeholder
+{
+    padding: 5px;
+}
+
+#textarea__field
+{
+    width: 100%;
+    font-size: 2em;
+}
+
+#textarea__field::placeholder
+{
+    padding: 5px;
+}
+
+#send__button
+{
+    padding: 10px 20px 10px 20px;
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 30%;
+    margin: auto;
+}
+
+#send__button:hover
+{
+    background-color: red;
+}
+
+.errorMessage
+{
+    color: red;
+    font-size: 16px;
+    padding: 5px 0 5px 0;
+}
